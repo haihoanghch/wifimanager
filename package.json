@@ -12,9 +12,9 @@
     "db:migrate:remote": "wrangler d1 execute wifi-manager-db --remote --file=./schema.sql"
   },
   "dependencies": {
-    "next": "14.2.5",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "lucide-react": "^0.383.0",
     "recharts": "^2.12.7",
     "clsx": "^2.1.1"
@@ -24,11 +24,11 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "typescript": "^5",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5",
+    "eslint": "^9",
+    "eslint-config-next": "^14.2.15",
     "wrangler": "^3.60.3",
     "tailwindcss": "^3.4.1",
-    "autoprefixer": "^10.0.1",
+    "autoprefixer": "^10",
     "postcss": "^8"
   }
 }

@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
-import { RotateCcw, AlertTriangle, CheckCircle, Clock, Zap, Router, X, Loader } from 'lucide-react'
+
+import { RotateCcw, AlertTriangle, CheckCircle, Clock, Zap, Router, X, Loader, Check } from 'lucide-react'
 
 const DEVICES = [
   { id: 'dev-001', name: 'Router Phòng Khách', ip: '192.168.1.1', model: 'TP-Link AX3000',   status: 'online',  uptime: '11 ngày 0 giờ 15 phút' },

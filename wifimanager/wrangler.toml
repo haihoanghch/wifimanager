@@ -1,0 +1,7 @@
+name = "wifi-manager"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "wifi-manager-db"
+database_id = "YOUR_D1_DATABASE_ID"
